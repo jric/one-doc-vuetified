@@ -1,17 +1,20 @@
 <template>
   <div id="app">
-    <img alt="One-doc TM" src="./assets/logo.svg" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <v-app id="oneDoc">
+      <img alt="One-doc TM" src="./assets/logo.svg" />
+      <HelloWorld msg="Welcome to Your Vue.js App" />
+      <Logo src="./assets/logo.svg"></Logo>
+    </v-app>
   </div>
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
+import Logo from "./components/Logo.vue";
 
 export default {
   name: "App",
   components: {
-    HelloWorld
+    Logo
   }
 };
 </script>
