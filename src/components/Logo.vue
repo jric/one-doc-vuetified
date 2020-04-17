@@ -17,8 +17,9 @@ export default {
   created() {
     if (!this.width && !this.height) {
       this.$emit(
-        'error',
-        'either height or width must be specified for Logo module');
+        "error",
+        "either height or width must be specified for Logo module"
+      );
     }
   }
 };
