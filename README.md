@@ -1,5 +1,7 @@
 # one-doc
 
+This project is archived, since it has not been used in a long time.
+
 ## Project setup
 ```
 npm install
